@@ -11,7 +11,7 @@ const validateDepthValue = (value) => {
 
 const validateParamNameDepth = (depthName) => {
     if (depthName === ('-d' || '-depth')) return true;
-    console.log(`Parameter "depth" "${depthName}" is not defined correctly, please, use help command -- help`);
+    console.log(`Parameter "depth" "${depthName}" is not defined correctly, please, use help command help`);
     return;
 }
 
@@ -29,10 +29,6 @@ const helper = (value) => {
     return;
 }
 
-const params = {
-    help: process.argv[2],
-    path: process.argv[2],
-    depth: validateDepth(process.argv[3], process.argv[4])
-};
 
-module.exports = { validateDepth, helper, params }
+
+module.exports = { validateDepth, helper }

@@ -1,7 +1,12 @@
 const path = require('node:path');
 const { printCounters, printTree } = require('./utils/node-tree')
-const { helper, params } = require('./utils/input-validators');
+const { helper, validateDepth } = require('./utils/input-validators');
 
+const params = {
+    help: process.argv[2],
+    path: process.argv[2],
+    depth: validateDepth(process.argv[3], process.argv[4])
+};
 
 (async () => {
 
