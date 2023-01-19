@@ -1,0 +1,14 @@
+{
+  "name": "node-hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest ./hw-3"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
