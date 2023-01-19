@@ -8,7 +8,8 @@ const printCounters = async (counters) => {
     for (const [key, value] of Object.entries(counters)) {
         acc.push(`${value} ${key}`);
     }
-    console.log('\n' + acc.join(', '));
+    const result = '\n' + acc.join(', ');
+    return result;
 }
 
 const getNode = async (lastPrefix, isLastItem) => {
@@ -33,19 +34,20 @@ const printTree = async (dirpath, depth, lastprefix = '', level = 0) => {
     const print = async function (dirpath, depth, lastprefix, level) {
         level++;
         const dir = await readDir(dirpath);
+        let output= "";
         for (const dirent of dir) {
             const graphics = await getNode(lastprefix, (dirent.name === dir[dir.length - 1].name));
-            const output = `${lastprefix}${graphics.prefix}${dirent.name}`;
+            const outputLine = `${lastprefix}${graphics.prefix}${dirent.name}\n`;
             if (dirent.isDirectory()) {
                 counters.directories++;
-                console.log(output);
+                output += outputLine;
                 if (depth > level || !depth) await print(path.join(dirpath, dirent.name), depth, graphics.node, level);
             } else {
                 counters.files++;
-                console.log(output);
+                output += outputLine;
             }
-        }
-        return counters;
+        };
+        return { counters, output };
     }
     return print(dirpath, depth, lastprefix, level);
 }

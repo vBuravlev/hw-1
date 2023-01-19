@@ -2,15 +2,18 @@
 //Валидаторы для вводы с клавиатуры
 
 const validateDepthValue = (value) => {
-    if (!Number.isInteger(Number(value))) {
-        console.log(`Input params "depth" = "${value}" is not integer!`);
-        throw new Error();
-    };
-    return value;
+    try {
+        if (!Number.isInteger(Number(value))) throw new Error(`Input params "depth" = "${value}" is not integer!`);
+        if (value < 1) throw new Error(`Input params "depth" = "${value}" is "<1"!`);
+        return value;
+    } catch (e) {
+        console.error('Error', e);
+        return;
+    }
 }
 
 const validateParamNameDepth = (depthName) => {
-    if (depthName === ('-d' || '-depth')) return true;
+    if (depthName === '-d' || depthName === '-depth') return true;
     console.log(`Parameter "depth" "${depthName}" is not defined correctly, please, use help command help`);
     return;
 }

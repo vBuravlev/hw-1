@@ -13,8 +13,10 @@ const params = {
     try {
         if (!helper(params.help)) {
             console.log(path.basename(params.path));
-            const counters = await printTree(params.path, params.depth);
-            await printCounters(counters);
+            const { counters, output } = await printTree(params.path, params.depth);
+            const result = await printCounters(counters);
+            console.log(output);
+            console.log(result);
         }
     } catch (e) {
         console.error('Error', e);
