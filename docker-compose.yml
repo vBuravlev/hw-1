@@ -1,0 +1,21 @@
+version: "1.0"
+
+services:
+  mongodb:
+    image: mongo
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+    ports:
+    volumes:
+  app:
+    depends_on:
+      - mongodb
+    build: ./app
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+    environment:
+    stdin_open: true
+    tty: true
+volumes:
