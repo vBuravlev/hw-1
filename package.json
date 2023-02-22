@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "start-pm2": "pm2 start src/server.js -f --watch --cron-restart=\"0\" --restart-delay=1000",
-    "stop-pm2": "pm2 stop all",
-    "delete-pm2": "pm2 delete all",
+    "first-start": "node src/fixtures create && node src/server.js",
     "dev": "nodemon src/server.js",
     "create-db": "node src/fixtures create",
     "clear-db": "node src/fixtures delete"
@@ -28,6 +26,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "bulma": "^0.8.2",
+    "colors": "^1.4.0",
     "connect-mongo": "^3.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -40,7 +39,6 @@
     "mongoose": "^5.9.14",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-    "pm2": "^5.2.2",
     "yargs": "^15.3.1"
   }
 }

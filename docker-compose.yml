@@ -1,21 +1,24 @@
-version: "1.0"
+version: '3.7'
 
 services:
-  mongodb:
-    image: mongo
-    restart: unless-stopped
-    env_file: ./.env
-    environment:
+  main:
+    container_name: main
+    build:
+      context: .
     ports:
-    volumes:
-  app:
+      - "3000:3000"
+    networks:
+      - nodeapp-network
     depends_on:
       - mongodb
-    build: ./app
-    restart: unless-stopped
-    env_file: ./.env
-    ports:
-    environment:
-    stdin_open: true
-    tty: true
-volumes:
+    restart: always
+  mongodb:
+    container_name: mongodb-host
+    image: mongo:latest
+    restart: always
+    networks:
+      - nodeapp-network
+
+networks:
+  nodeapp-network:
+    driver: bridge
