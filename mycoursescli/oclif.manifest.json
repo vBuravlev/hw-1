@@ -1,0 +1,93 @@
+{
+    "version": "1.0.0",
+    "commands": {
+        "add": {
+            "id": "add",
+            "description": "Добавить курс или лекцию в базу данных",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": [
+                {
+                    "name": "entity",
+                    "description": "Тип добавленного объекта",
+                    "required": true,
+                    "options": [
+                        "course",
+                        "lesson"
+                    ]
+                }
+            ]
+        },
+        "courses": {
+            "id": "courses",
+            "description": "Отображение доступных курсов",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": []
+        },
+        "lessons": {
+            "id": "lessons",
+            "description": "Отображение доступных лекций в курсе",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": [
+                {
+                    "name": "entity",
+                    "description": "Тип добавленного объекта",
+                    "required": true,
+                    "options": [
+                        "course",
+                        "lesson"
+                    ]
+                }
+            ]
+        },
+        "login": {
+            "id": "login",
+            "description": "Авторизация",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": [
+                {
+                    "name": "name"
+                }
+            ]
+        },
+        "logout": {
+            "id": "logout",
+            "description": "Logout from my-courses application",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": []
+        },
+        "update": {
+            "id": "update",
+            "description": "Update entity (course, stream or user)",
+            "pluginName": "mycoursescli",
+            "pluginType": "core",
+            "aliases": [],
+            "flags": {},
+            "args": [
+                {
+                    "name": "entity",
+                    "description": "Тип обновленного объекта",
+                    "required": true,
+                    "options": [
+                        "course",
+                        "lessons"
+                    ]
+                }
+            ]
+        }
+    }
+}

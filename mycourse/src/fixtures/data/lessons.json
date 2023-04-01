@@ -1,0 +1,241 @@
+[
+  {
+    "_id": "5dab698f8af6399b822105dc",
+    "title": "NodeJS. 01. Курс Node.js - для тех, кто хочет начать бекенд разработку",
+    "course": "5dab698f8af6377b811105dc",
+    "video": "https://www.youtube.com/watch?v=XZe6_tzJY6g&list=PLM7wFzahDYnHYn81-oqavYIp6vaEd5gdH&index=1",
+    "comments": [
+      {
+        "author": "OxLex",
+        "text": "У Вас самый топовый контент по JS. Просто феноменальная переработка материала. Спасибо!"
+      },
+      {
+        "author": "Aleksander off",
+        "text": "уже вторую неделю ищу пособие чтобы начинать понимать node(пробовал лекции в mdn и в github'е, но на первых лекциях сразу застреваю), если с вами получиться(а вы мне очень помогли на первоначальном изучении JS), то с меня вам шампанское!"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Node.js for Windows",
+        "link": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-x64.msi"
+      },
+      {
+        "title": "Node.js for Linux",
+        "link": "https://nodejs.org/dist/v18.14.1/node-v18.14.1.tar.gz"
+      },
+      {
+        "title": "Node.js for MacOS",
+        "link": "https://nodejs.org/dist/v18.14.1/node-v18.14.1.pkg"
+      }
+    ]
+  },
+  {
+    "_id": "5dab611f8af6399b822105dc",
+    "title": "NodeJS. 02. Как учиться на курсе Node.js. Правила курса",
+    "course": "5dab698f8af6377b811105dc",
+    "video": "https://www.youtube.com/watch?v=ysg9kakXL5o&list=PLM7wFzahDYnHYn81-oqavYIp6vaEd5gdH&index=2",
+    "comments": [],
+    "resources": []
+  },
+  {
+    "_id": "5dab611f8af6229b822105dc",
+    "title": "NodeJS. 03. Установка и первая программа",
+    "course": "5dab698f8af6377b811105dc",
+    "video": "https://www.youtube.com/watch?v=hMUotiiz_iw&list=PLM7wFzahDYnHYn81-oqavYIp6vaEd5gdH&index=3",
+    "comments": [],
+    "resources": []
+  },
+  {
+    "_id": "5dab611f8af6229b825305dc",
+    "title": "NodeJS. 04. Дебаг программ на Node.js",
+    "course": "5dab698f8af6377b811105dc",
+    "video": "https://www.youtube.com/watch?v=5-YfjWaLj2w&list=PLM7wFzahDYnHYn81-oqavYIp6vaEd5gdH&index=4",
+    "comments": [],
+    "resources": []
+  },
+  {
+    "_id": "5dab231f8af6229b825305dc",
+    "title": "NodeJS. 05. Передача параметров в Node.js",
+    "course": "5dab698f8af6377b811105dc",
+    "video": "https://www.youtube.com/watch?v=1gWQf2WLnT8&list=PLM7wFzahDYnHYn81-oqavYIp6vaEd5gdH&index=5",
+    "comments": [],
+    "resources": []
+  },
+  {
+    "_id": "5ec617e97e874ea493666ebc",
+    "title": "Array Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4",
+    "comments": [
+      {
+        "author": "Ayrton Sweet",
+        "text": "Sorry, I can't hangout. My uncle's cousin's sister in law's best friend's insurance agent's roommate's pet goldfish died. Maybe next time."
+      },
+      {
+        "author": "Jadine Caldwell",
+        "text": "I think I'm crying. It's that magical."
+      }
+    ],
+    "resources": [
+      {
+        "title": "project_files.zip",
+        "link": "https://www.google.com/"
+      },
+      {
+        "title": "Some Article",
+        "link": "http://callbackhell.ru/"
+      }
+    ]
+  },
+  {
+    "_id": "5dab698f8af6399b811105dc",
+    "title": "Linked Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Skip Lists",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Circular Arrays",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Abstract Data Types",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Deques",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Queues",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Stacks",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "And the Iterators Gonna Iterate-ate-ate",
+    "course": "5dacb9f73266589f3a910da1",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "A Journey of a Thousand Miles. . .",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Hidden Messages in the Replication Origin",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Some Hidden Messages are More Surprising than Others",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "An Explosion of Hidden Messages",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "The Simplest Way to Replicate DNA",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Asymmetry of Replication",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Peculiar Statistics of the Forward and Reverse Half-Strands",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Some Hidden Messages are More Elusive than Others",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "A Final Attempt at Finding DnaA Boxes in E. coli",
+    "course": "5dacbdd3a435599f79b6a610",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Hello, world!",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Java to Kotlin conversion",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Named arguments",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Default arguments",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Lambdas",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Strings",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Data classes",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Nullable types",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Smart casts",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Extension functions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Object expressions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "SAM conversions",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  },
+  {
+    "title": "Extension functions on collections",
+    "course": "5dab698f8af6399b811105dc",
+    "video": "https://archive.org/download/PopeyeVideos/Popeye_Cookin_with_Gags_512kb.mp4"
+  }
+]

@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  main:
+    container_name: main
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    networks:
+      - nodeapp-network
+    depends_on:
+      - mongodb
+    restart: always
+  mongodb:
+    container_name: mongodb-host
+    image: mongo:latest
+    restart: always
+    networks:
+      - nodeapp-network
+
+networks:
+  nodeapp-network:
+    driver: bridge
